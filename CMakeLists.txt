@@ -247,8 +247,7 @@ endif()
 add_subdirectory(glm)
 
 if (GLM_BUILD_TESTS)
-	include(CTest)
-	add_subdirectory(test)
+  message(WARNING "No tests build with this fork")
 endif()
 
 if (GLM_BUILD_INSTALL)
